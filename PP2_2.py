@@ -2,8 +2,8 @@
 
 def q1(): 
   #Write Assignment code here
-  a = input("Input a integer:")
-  if a == 5:
+  num = input("Input a integer:")
+  if num == 5:
     print("The number is five")
   else:
     print("The number is not five")
