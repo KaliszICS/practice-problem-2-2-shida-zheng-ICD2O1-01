@@ -1,36 +1,32 @@
+def q1():
 
+  num1 = int(input("Input an integer: "))
+  if num1 == 5:
+      print("The number is Five")
+  else:
+      print("The number is not Five")
 
-def q1(): 
-  #Write Assignment code here
-  num = input("Input a integer:")
-  if num == 5:
-    print("The number is five")
+def q2():
+  num2 = float(input("Input a number: "))
+  if num2 > 0:
+      print("Positive")
   else:
-    print("The number is not five")
+      print("Negative")
 
-def q2(): 
-  #Write Assignment code here
-  a = input("Input a integer:")
-  b = int(a)
-  if b > 0:
-    print("Positive")
+def q3():
+  num3 = int(input("Input an integer: "))
+  if num3 % 2 == 0:
+      print("Even")
   else:
-    print("Negative")
-def q3(): 
-  #Write Assignment code here
-  a = input("Input a integer:")
-  b = int(a)
-  if b % 2 == 0:
-    print("Even")
+      print("Odd")
+
+def q4():
+  word = input('Type "Hello": ')
+  if word == "Hello":
+      print("The word is Hello")
   else:
-    print("Odd")
-def q4(): 
-  #Write Assignment code here
-  a = input("Type'Hello'")
-  if a == "Hello":
-    print("The word is Hello")
-  else:
-    print("The word is not Hello")
+      print("The word is not Hello")
+
 
 
 
